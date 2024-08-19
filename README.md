@@ -4,9 +4,9 @@
 <hr>
 
 <p align="left">
-Welcome to our project! We're excited to introduce you to our meticulously crafted landing page, designed with a blend of creativity, functionality, and user-centric principles.
+Welcome to our Clothing E-Commerce Website!
   
-Using HTML, CSS, JavaScript, and the Bootstrap framework, we've crafted a visually stunning and highly interactive landing page. From sleek animations that captivate your attention to seamless mobile responsiveness that ensures a flawless experience across devices, every aspect of our project has been carefully engineered to leave a lasting impression.
+This clothing commerce website is built using the MERN stack, combining the power of MongoDB, Express, React, and Node.js to deliver a seamless online shopping experience. The site features a responsive design that adapts to various devices, ensuring users have a smooth and engaging experience whether they’re browsing on a desktop, tablet, or smartphone. Key functionalities include an intuitive add-to-cart feature that simplifies the shopping process and a robust search function that allows Admin to easily find their created products. This project highlights the integration of modern web technologies to create a dynamic and user-friendly e-commerce platform.
  
 </p>
 
