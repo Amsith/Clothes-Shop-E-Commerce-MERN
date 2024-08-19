@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="300" height="150" src="image/Official_Elixir_logo.png">
+  <img width="150" height="130" src="Shopper scren shots/logo.png">
 </p>
 <hr>
 
@@ -10,37 +10,94 @@ Using HTML, CSS, JavaScript, and the Bootstrap framework, we've crafted a visual
  
 </p>
 
+<br>
 
-
 <p align="center">
-  <img width="75%" height="50%" src="Screen shots/1.jpg">
+  <img width="75%" height="50%" src="Shopper scren shots/1.png">
 </p>
 <br>
 <p align="center">
-  <img width="75%" height="50%" src="Screen shots/2.jpg">
+ <img width="75%" height="50%" src="Shopper scren shots/2.png">
 </p>
 <br>
 <p align="center">
-  <img width="75%" height="50%" src="Screen shots/3.jpg">
+ <img width="75%" height="50%" src="Shopper scren shots/3.png">
 </p>
 <br>
 <p align="center">
-  <img width="75%" height="50%" src="Screen shots/4.jpg">
+<img width="75%" height="50%" src="Shopper scren shots/4.png">
 </p>
 <br>
 <p align="center">
-  <img width="75%" height="50%" src="Screen shots/5.jpg">
+ <img width="75%" height="50%" src="Shopper scren shots/5.png">
 </p>
 <br>
 <p align="center">
-  <img width="75%" height="50%" src="Screen shots/6.jpg">
+  <img width="75%" height="50%" src="Shopper scren shots/6.png">
 </p>
 <br>
 <p align="center">
-  <img width="75%" height="50%" src="Screen shots/7.jpg">
+ <img width="75%" height="50%" src="Shopper scren shots/7.png">
 </p>
 <br>
 <p align="center">
-  <img width="75%" height="50%" src="Screen shots/8.jpg">
+ <img width="75%" height="50%" src="Shopper scren shots/8.png">
+</p>
+<br>
+<p align="center">
+ <img width="75%" height="50%" src="Shopper scren shots/9.png">
+</p>
+<br>
+<p align="center">
+ <img width="75%" height="50%" src="Shopper scren shots/10.png">
+</p>
+<br>
+<p align="center">
+ <img width="75%" height="50%" src="Shopper scren shots/11.png">
+</p>
+<br>
+<p align="center">
+ <img width="75%" height="50%" src="Shopper scren shots/12.png">
+</p>
+<br>
+<p align="center">
+ <img width="75%" height="50%" src="Shopper scren shots/13.png">
+</p>
+<br>
+<p align="center">
+ <img width="75%" height="50%" src="Shopper scren shots/14.png">
+</p>
+<br>
+<p align="center">
+ <img width="75%" height="50%" src="Shopper scren shots/15.png">
+</p>
+<br>
+<p align="center">
+ <img width="75%" height="50%" src="Shopper scren shots/16.png">
+</p>
+<br>
+<p align="center">
+ <img width="75%" height="50%" src="Shopper scren shots/17.png">
+</p>
+<br>
+<p align="center">
+ <img width="75%" height="50%" src="Shopper scren shots/18.png">
+</p>
+<br>
+<p align="center">
+Responsive Design
+ 
+</p>
+<br>
+<p align="center">
+ <img width="75%" height="50%" src="Shopper scren shots/19.png">
+</p>
+<br>
+<p align="center">
+ <img width="75%" height="50%" src="Shopper scren shots/20.png">
+</p>
+<br>
+<p align="center">
+ <img width="75%" height="50%" src="Shopper scren shots/21.png">
 </p>
 <br>
