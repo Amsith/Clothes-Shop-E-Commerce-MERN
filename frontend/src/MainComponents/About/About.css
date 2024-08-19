@@ -1,0 +1,161 @@
+.about-div {
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+/* Left div */
+.about-img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0px;
+}
+
+
+/* //Right details */
+.about-details {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px 30px 30px;
+
+}
+
+.about-stars {
+    color: purple;
+    margin-top: 10px;
+}
+
+.about-about {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.about-price-div {
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.about-price {
+    color: purple;
+}
+
+.about-discount-price {
+    color: gray;
+    text-decoration: line-through;
+}
+
+/* about sizes */
+.about-sizes{
+display: flex;
+
+}
+.about-sizes p {
+    background-color: rgb(225, 222, 222);
+    margin-right: 20px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 1px solid transparent; 
+    transition: all 0.5s;
+}
+
+.about-sizes p:hover {
+    border: 1px solid purple;
+    background-color: rgb(240, 240, 240); /* Example of changing background color */
+}
+
+
+
+.addto-cart-btn {
+    margin-top: 50px;
+    padding: 8px 25px;
+    border: 2px solid rgb(4, 190, 4);
+    color: rgb(4, 190, 4);
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.5s;
+
+}
+
+.remove-cart-btn {
+    margin-top: 50px;
+    padding: 8px 25px;
+    border: 2px solid rgb(253, 0, 0);
+    color: red;
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.addto-cart-btn:hover {
+    color: green;
+    border: 2px solid green;
+}
+.remove-cart-btn:hover{
+    border: 2px solid rgb(167, 5, 5);
+    color: rgb(170, 4, 4);
+}
+
+
+.selected{
+    background-color: red;
+}
+@media (max-width:1024px) {
+    .about-div {
+        width: 40%;
+    }
+
+    .about-img {
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .about-img img {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        border-radius: 0px;
+    }
+
+    .about-details {
+        width: 100%;
+        padding: 50px 30px 30px 30px;
+
+    }
+
+}
+
+@media (max-width:600px) {
+    .about-div {
+        width: 60%;
+    }
+
+    .addto-cart-btn {
+        padding: 8px 20px;
+        font-size: 13px;
+
+    }
+}

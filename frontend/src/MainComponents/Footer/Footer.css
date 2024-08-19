@@ -1,0 +1,45 @@
+.footer-div {
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 20px;
+}
+
+.footer-menu p:hover {
+    color: purple;
+    cursor: pointer;
+}
+
+.footer-icons {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: purple;
+}
+
+@media (max-width:800px){
+
+    
+    .footer-menu {
+       font-size: 15px;
+        gap: 20px;
+        margin: 20px;
+    }
+    
+    
+    
+    .footer-icons {
+        font-size: 30px;
+       
+    }
+
+}

@@ -1,0 +1,144 @@
+/* AdminTable.css */
+
+.admin-heading{
+  color: purple;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+  table {
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px solid #ddd; /* Add border to the table */
+    width: 100%;
+  }
+  
+  thead {
+    background-color: #eee;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd; /* Border for table cells */
+    border: 1px solid rgb(217, 217, 217);
+  }
+  
+ tr :nth-child(7){
+    text-align: left;
+  }
+
+  th {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  tr {
+    transition: background-color 0.3s ease;
+  }
+  
+ 
+  
+  img {
+    border-radius: 8px;
+  }
+  
+.admin-table-button {
+    display: flex;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .admin-table-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+.admin-edit {
+    background-color: #28a745;
+  }
+  
+.admin-edit:hover {
+    background-color: #218838;
+  }
+  
+.admin-delete {
+    background-color: #dc3545;
+  }
+  
+.admin-delete:hover {
+    background-color: #c82333;
+  }
+  
+
+
+/* Search Div */
+.seracr-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.admin-search-and-btn-div {
+  border: 1px solid purple;
+  border-radius: 10px;
+
+}
+
+.admin-serach-input {
+  padding: 5px 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  user-select: none;
+outline: none;
+border-radius: 10px;
+
+
+}
+
+.admin-serach-input-btn {
+  padding: 5px 20px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: white;
+  border-left: 1px solid purple;
+  cursor: pointer;
+  border-radius: 10px;
+  
+}
+
+.admin-serach-input-btn:hover {
+  background-color: purple;
+  color: white;
+  transition: 0.5s;
+}
+
+
+
+
+  @media (max-width: 768px) {
+    table {
+      font-size: 14px;
+      width: 100%; /* Make table width responsive */
+    }
+    
+    th, td {
+      padding: 8px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
+  

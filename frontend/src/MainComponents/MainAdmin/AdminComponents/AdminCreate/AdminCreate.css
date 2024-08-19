@@ -1,0 +1,98 @@
+.admin-form{
+    padding: 20px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.admin-form div input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.admin-form div select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+
+.admin-form div textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    resize: none;
+    height: 200px;
+
+}
+
+.admin-table-price{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.admin-price{
+    width: 50%;
+}
+.admin-form div input::file-selector-button {
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.admin-create-button{
+    padding:5px 20px ;
+    border: 2px solid purple;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.admin-create-button:hover{
+    background-color: purple;
+    color: white;
+}
+
+/* validation message */
+.error-message{
+color: red;
+margin-top: -23px;
+margin-bottom: 10px;
+font-size: 15px;
+}
+
+
+.error-border {
+    border-color: red !important;
+}
+
+.succes-message{
+    color: white;
+    padding: 10px 15px;
+    margin-top: 15px;
+    background-color: rgba(133, 3, 133, 0.784);
+    border-radius: 10px;
+}

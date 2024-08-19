@@ -1,0 +1,121 @@
+.home-div {
+    position: relative;
+}
+
+.home-banner img {
+    width: 100%;
+    height: 90vh;
+    border-radius: 0px;
+    animation: fadIn 0.5s;
+}
+
+.home-about {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    width: 50%;
+}
+
+.home-about p {
+    text-transform: uppercase;
+    font-style: italic;
+
+}
+
+.home-about hr {
+    height: 5px;
+    background-color: white;
+}
+
+.home-about button{
+    padding: 10px 25px;
+    margin-bottom: 15px;
+    border: 2px solid purple;
+    background-color: white;
+    border-radius: 15px 0px;
+    font-weight: bold;
+    font-size:16px ;
+    cursor: pointer;
+    transition:  0.5s ;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.home-about button:hover{
+    background-color: purple;
+    color: white;
+}
+
+
+@media (max-width:1300px){
+    .home-about {
+        top: 25%;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .home-about button{
+        padding: 10px 15px;
+        font-size: 14px;
+
+    }
+}
+
+@media (max-width:1000px){
+    .home-about {
+        top: 25%;
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .home-about button{
+        padding: 10px 15px;
+    }
+    .home-banner img {
+        height: 80vh;
+    }
+}
+
+
+
+@media (max-width:768px){
+    .home-about {
+        top: 10%;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .home-about button{
+        padding: 8px 10px;
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+    .home-banner img {
+        height: 40vh;
+    }
+    .home-about {
+        font-size: 25px;
+        font-weight: 800;
+        width: 60%;
+    }
+}
+
+@media (max-width:425px){
+    .home-about {
+        top: 20%;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .home-about button{
+        padding: 8px 10px;
+        margin-bottom: 15px;
+        font-size: 8px;
+    }
+    .home-banner img {
+        height: 30vh;
+    }
+}

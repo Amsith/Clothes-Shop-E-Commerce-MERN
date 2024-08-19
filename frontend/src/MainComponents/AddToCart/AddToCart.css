@@ -1,0 +1,216 @@
+/* AddToCart.css */
+
+.cart-div {
+    width: 90%;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.myCart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.myCart-icon {
+    color: #6a1b9a;
+    /* Updated color for better visibility */
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+.myCart h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.cart-thead {
+    background-color: #6a1b9a;
+}
+
+.cart-thead th {
+    padding: 12px 15px;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #ddd;
+}
+
+.cart-tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-tbody td {
+    padding: 12px 15px;
+}
+
+.quantity-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    height: 100px;
+}
+
+.quantity {
+    color: #6a1b9a;
+    font-weight: bold;
+    font-size: 16px;
+    width: 40px;
+    text-align: center;
+    border: 1px solid purple;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.quantity-display {
+    background-color: #f5f5f5;
+}
+
+.decreaseCount,
+.increaseCount {
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.decreaseCount:hover,
+.increaseCount:hover {
+    background-color: #4a148c;
+}
+
+.deleteButton {
+    background-color: #c92323;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.deleteButton:hover {
+    background-color: #961010;
+}
+
+
+
+
+
+/* Estimed Design */
+.estimate-div {
+    width: 25%;
+    margin-top: 50px;
+    border: 1px solid #ddd;
+    padding:25px 15px;
+    margin-left: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Estimatted inuput */
+
+.estimate-promo-label {
+    font-size: 13px;
+    color: gray;
+    text-transform: uppercase;
+
+}
+
+.estimate-promo-input {
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estimate-promo-input input {
+    border: 1px solid;
+    width: 100%;
+    padding: 7px 10px;
+    outline: none;
+    border: none;
+}
+
+.estimate-promo-input button {
+    padding: 7px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.estimated-price-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.estimated-price-details div p {
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.estimated-price-details div .estimated-total {
+    color: black;
+    font-size: 15px;
+
+}
+
+/* Checkout btn div*/
+.checkout-btn{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+
+}
+
+.checkout-btn button{
+    padding: 6px 30px;
+    background-color: white;
+    border: 2px solid purple;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.checkout-btn button:hover{
+    background-color: purple;
+    color: white;
+}
+
+@media(max-width:1100px){
+    .estimate-div {
+        width: 40%;
+    
+    }
+    
+}
+
+
+@media(max-width:800px){
+    .estimate-div {
+        width: 100%;
+    
+    }
+    
+}

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.offer-banner-div {
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 70px;
+}
+
+.offer-banner img {
+    width: 100%;
+}
+
+.offer-banner {
+    position: relative;
+}
+
+.offer-banner-about {
+    position: absolute;
+    top: 20%;
+    left: 40px;
+    color: white;
+}
+
+.offer-banner-about h1 {
+    font-family: "Merriweather", serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.offer-banner-about p{
+    width: 40%;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 60px;
+    text-transform: uppercase;
+    word-spacing: 2px;
+}
+
+.offer-banner-about button{
+    margin-top: 70px;
+    padding: 15px 25px;
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.offer-banner-about button:hover{
+    color: purple;
+    border-color: purple;
+}
+
+@media (max-width:1024px){
+    .offer-banner-about h1 {
+        font-size: 35px;
+        font-weight: 800;
+    }
+    .offer-banner-about p{
+        width: 38%;
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    .offer-banner-about button{
+        margin-top: 40px;
+        padding: 10px 18px;
+        font-size: 18px;
+        word-spacing: 1px;
+
+    }
+}
+
+@media (max-width:770px){
+    .offer-banner-about h1 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .offer-banner-about p{
+        width: 35%;
+        font-size: 12px;
+        margin-top: 30px;
+    }
+    .offer-banner-about button{
+        margin-top: 30px;
+        padding: 10px 18px;
+        font-size: 14px;
+        word-spacing: 1px;
+
+    }
+}
+
+@media (max-width:500px){
+    .offer-banner-about h1 {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .offer-banner-about p{
+        width: 30%;
+        font-size: 6px;
+        margin-top: 10px;
+        word-spacing: 1px;
+    }
+    .offer-banner-about button{
+        margin-top: 20px;
+        padding: 5px 13px;
+        font-size: 8px;
+        letter-spacing: 0px;
+    }
+}

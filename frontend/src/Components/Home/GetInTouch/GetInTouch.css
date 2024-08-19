@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+
+.getInTouch-banner-div {
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 70px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.getInTouch-banner {
+    width: 50%;
+}
+
+.getInTouch-banner img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+
+}
+
+
+.getin-about-section {
+    width: 50%;
+    background-color: rgba(182, 181, 181, 0.773);
+    padding: 20px 20px;
+
+}
+
+
+
+.getin-h1 {
+    font-size: 55px;
+    font-weight: 800;
+    margin: 20px 30px;
+    text-align: center;
+    font-family: "Satisfy", cursive;
+    color: purple;
+
+}
+
+.getin-form-labelss label {
+    font-size: 18px;
+    color: purple;
+}
+
+.getin-form-labelss input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 2px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.getin-form-labelss textarea {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    resize: none;
+    height: 200px;
+}
+
+@media (max-width:770px) {
+    .getInTouch-banner {
+        width: 100%;
+    }
+
+    .getin-about-section {
+        width: 100%;
+
+    }
+
+    .getin-h1 {
+        font-size: 35px;
+        font-weight: 600;
+        margin: 20px 30px;
+
+    }
+
+    .getin-form-labelss textarea {
+        height: 100px;
+    }
+
+}

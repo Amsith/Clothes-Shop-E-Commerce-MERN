@@ -1,0 +1,23 @@
+.home-title{
+    text-align: center;
+    margin:70px 0px;
+
+}
+.home-title h1{
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.home-title span {
+    height: 7px;
+    width: 150px;
+    background-color: purple;
+    display: inline-block; /* Ensure span respects width and height */
+}
+
+
+@media (max-width:750px){
+    .home-title h1{
+        font-size: 35px;
+    }
+}

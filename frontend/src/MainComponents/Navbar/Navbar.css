@@ -1,0 +1,133 @@
+.nav-div {
+    height: 75px;
+    background-color: white;
+    position: sticky;
+    top: 0; /* Ensure it sticks to the top */
+    z-index: 1000; 
+    border-bottom: 3px solid purple;
+}
+
+nav {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-logo img {
+    width: 83px;
+    cursor: pointer;
+    height: 70px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0px 20px;
+    font-size: 18px;
+}
+
+nav ul li a {
+    color: purple;
+}
+
+.nav-admin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-admin button {
+    padding: 8px 25px;
+    border-radius: 20px;
+    border: 2px solid purple;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+.nav-admin button:hover {
+    background-color: purple;
+    transition: 0.5s;
+    color: white;
+
+}
+
+
+.nav-cart-icon {
+    font-size: 35px;
+    display: flex;
+    color: purple;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.nav-toggle-icon {
+    display: none;
+    font-size: 35px;
+    color: purple;
+    cursor: pointer;
+}
+
+/* Cart count */
+.cart-count {
+    background-color: purple;
+    border-radius: 50%;
+    padding: 1px 7px;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    right: -8px;
+    top: -10px;
+
+}
+
+.choosen {
+    border-bottom: 3px solid purple;
+
+}
+
+@media (max-width:768px) {
+    nav ul {
+        display: block;
+        flex-direction: column;
+        position: fixed;
+        right: -100%;
+        top: 75px;
+        height: 100vh;
+        width: 180px;
+        transition: right 0.8s;
+        background-color: white;
+        border-left: 3px solid purple;
+        align-items: center;
+
+    }
+
+    nav ul.active {
+        display: block;
+        right: 0px;
+    }
+
+
+    .nav-toggle-icon {
+        display: flex;
+    }
+
+    nav ul {
+        padding: 20px 0px;
+    }
+
+    nav ul li {
+        margin: 15px;
+    }
+
+
+}
